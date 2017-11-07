@@ -1,5 +1,12 @@
 body{
-#252c48 azul
+
+}
+
+@font-face {
+
+      font-family:"coret koas";
+      src: url("../Coret Koas.otf") /* TTF file for CSS3 browsers */
+
 }
 
 .titulo {
@@ -20,6 +27,7 @@ body{
 .precios {
   color: #252c47;
   width: 340px;
+  margin-top: 100px;
 }
 
 .solicita {
@@ -27,6 +35,7 @@ body{
   font-weight: bold;
   font-size: 35px;
   margin-bottom: 25px;
+  font-family: coret koas;
 }
 
 
@@ -164,6 +173,7 @@ body{
     border: none;
     margin: 0;
     padding: 0;
+    background-color: #e6ebef;
   }
 
   #af-form-1473948063 input, #af-form-1473948063 button, #af-form-1473948063 textarea, #af-form-1473948063 select {
@@ -176,7 +186,7 @@ body{
 
   #af-form-1473948063, #af-form-1473948063 .quirksMode {
     width: 100%;
-    max-width: 355px;
+    max-width: 500px;
   }
 
   #af-form-1473948063.af-quirksMode {
