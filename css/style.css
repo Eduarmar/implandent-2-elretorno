@@ -9,6 +9,12 @@ body{
 
 }
 
+.header {
+  background-image: url(../images/fondo_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .titulo {
   color: #4ca39b;
   font-size: 30px;
@@ -33,7 +39,7 @@ body{
 .solicita {
   color: rgb(37, 44, 71);
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   margin-bottom: 25px;
   font-family: coret koas;
 }
